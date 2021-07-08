@@ -1,0 +1,43 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(corrplot)
+library(tidyverse)
+library(reticulate)
+```
+
+```{r}
+houses <- read.csv(file = 'data/paris.csv')
+```
+
+```{r}
+dim(houses)
+head(houses)
+```
+
+```{r}
+summary(houses)
+```
+
+```{r}
+mcor <- cor(houses)
+```
+
+```{r}
+corrplot(mcor, type="upper", order="hclust", tl.col="black", tl.srt=45)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{python}
+from sklearn.model_selection import train_test_split
+houses = houses.drop('cityCode', axis = 1)
+train_set, test_set = train_test_split(houses, test_size = 0.2, random_state = 42)
+print(train_set.shape, test_set.shape)
+```
+
