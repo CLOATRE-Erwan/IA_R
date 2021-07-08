@@ -60,5 +60,7 @@ All model were created with the `mlr3leanres` module form R.
 
 The metrics for ecaluation we be MSE with `msr("regr.mse")` then wit evaluation the score model with `prediction$score(measure)`
 
-
+### R vs Python
+The two are good for ML, python as more module for ML and R is easyer for data manipulation.
+The Chois is to use R + python with the `reticulate` module. 
 
