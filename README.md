@@ -61,6 +61,6 @@ All models were created with the `mlr3learners` module form R.
 The metrics for ecaluation we be MSE with `msr("regr.mse")` then wit evaluation the score model with `prediction$score(measure)`
 
 ### R vs Python
-R a better for data exploration, dataviz, math and stats. Python is better for ML and goo for data manipulation.
-FOr ML is better to use Python but you can use R + python with the `reticulate` module. 
+R a better for data exploration, dataviz, math and stats. Python is better for ML and good for data manipulation.
+For ML is better to use Python but you can use R + python with the `reticulate` module. 
 
