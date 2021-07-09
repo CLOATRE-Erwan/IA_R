@@ -34,7 +34,7 @@ You need this to make work the POC
 First set the random seed to `42` for reproctability.<br>
 Second link R scrpit to python environement, and import `sklearn.preprocessing` from python.
 ### Import and pre processing the data
-To import the data used __R__ `red.csv` function.
+To import the data we used __R__ `red.csv` function.
 
 
 The two column `"cityCode"` and `"made"` are droped, then the data is suffled.
@@ -53,7 +53,7 @@ In the POC four models were created :
 * Ranger Regression (Random Forest) with `lrn("regr.ranger")`
 * Support Vector Machine (SVM) with `lrn("regr.svm")`
 
-All model were created with the `mlr3leanres` module form R.
+All model were created with the `mlr3learners` module form R.
 
 
 ### Evaluate the model
