@@ -53,7 +53,7 @@ In the POC four models were created :
 * Ranger Regression (Random Forest) with `lrn("regr.ranger")`
 * Support Vector Machine (SVM) with `lrn("regr.svm")`
 
-All model were created with the `mlr3learners` module form R.
+All models were created with the `mlr3learners` module form R.
 
 
 ### Evaluate the model
