@@ -8,9 +8,9 @@
 * web/app.R : The POC with shiny
 * scrpit/main.R : The POC without shiny
 
-## Goal
+## Aim
 
-The goal is therefore to create a model and visualize the results with R.<br>
+The Aim is therefore to create a model and visualize the results with R.<br>
 The data used in this POC will be the paris housing data : https://www.kaggle.com/mssmartypants/paris-housing-price-prediction
 
 ## requirement
